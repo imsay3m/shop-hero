@@ -38,7 +38,8 @@ module.exports = {
       colors: {
         "primary": "#1A187A",
         "primarylite": "#27448E",
-        "secondery": "#EDEDED",
+        "secondery": "#FAFAFA",
+        "seconderylite": "#EDEDED"
       }
     },
   },
