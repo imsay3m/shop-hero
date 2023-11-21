@@ -27,9 +27,12 @@ module.exports = {
     extend: {
       lineHeight: {
         '14': '3.5rem',
+        '18': '4.5rem',
       },
       spacing: {
         '16': '4rem',
+        '21': '5.25rem',
+        '38': '9.5rem',
         '41': '10.25rem',
         '47.25': '189px',
         '75': '18.75rem',
