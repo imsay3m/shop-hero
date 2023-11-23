@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./build/*.html"],
+  content: ["public/*.html"],
   theme: {
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
@@ -18,13 +18,14 @@ module.exports = {
       '9xl': ['8rem', { lineHeight: '1' }],
       '16': '4rem',
     },
-    backgroundImage: {
-      'banner-background-mobile': "url('/assets/images/header/banner-background-mobile.png')",
-    },
     fontFamily: {
       'sans': ['Montserrat', 'sans-serif'],
     },
     extend: {
+      backgroundImage: {
+        'header-background-mobile': "url('/assets/images/header/header-background-mobile.png')",
+        'header-background': "url('/assets/images/header/header-background.png')",
+      },
       lineHeight: {
         '14': '3.5rem',
         '18': '4.5rem',
@@ -32,11 +33,18 @@ module.exports = {
       spacing: {
         '16': '4rem',
         '21': '5.25rem',
+        '22': '5.5rem',
+        '25.5': '102px',
         '38': '9.5rem',
         '41': '10.25rem',
         '47.25': '189px',
+        '67': '16.75rem',
+        '73.25': '293px',
         '75': '18.75rem',
         '93.75': '375px',
+        '95.75': '383px',
+        '180': '45rem',
+        '280': '70rem',
       },
       colors: {
         "primary": "#1A187A",
